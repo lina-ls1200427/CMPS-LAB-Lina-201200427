@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form>
+<h1><b>Patient Contact Information</b></h1> <br>
+
+<FIELDSET>
+    <LEGEND><b>Personal Information</b></LEGEND>
+    <label for="fn">First Name : </label><input type="text" name="fn" id="fn" > <br>
+    <label for="ln">Last Name : </label><input type="text" name="ln" id="ln" > <br>
+    <label for="dob">Date Of Birth : </label><input type="date" name="dob" id="dob" > <br>
+    <label for="weight"> Weight : </label><input type="range" name="weight" id="weight" > <br>
+    Gender :
+    <input type="radio" name="gender" id="gender1" value="male" checked> Male
+    <input type="radio" name="gender" id="gender2" value="female"> Female<br>
+    <label for="siblings"> No. Of Siblings : </label><input type="text" name="siblings" id="siblings" > 0 to 15<br>
+
+    Employment:
+    <select name="list" id="list">
+        <optgroup label=" Government........">
+            <option value="Admin ">Administrative </option>
+            <option value="Tech ">Technical </option>
+        </optgroup>
+        <optgroup label="Private.........">
+            <option value="Owner ">Owner </option>
+            <option value="Employee ">Employee </option>
+        </optgroup>
+        <optgroup label="Other.....">
+        </optgroup>
+    </select> <br>
+
+</FIELDSET>
+
+
+    <fieldset>
+        <legend>Contact Information </legend>
+    <caption>
+        <label for="email">Email: </label><input type="text" name="email" id="email" >
+        <label for="Phone">Phone: </label><input type="number" name="Phone" id="Phone" > <br>
+        Preferred contact method: <br>
+        <input type="checkbox" id="checkbox1" name="checkbox1"><label for="checkbox1">By phone</label> <br>
+        <input type="checkbox" id="checkbox2" name="checkbox2"> <label for="checkbox2">By Email</label> <br>
+        <input type="checkbox" id="checkbox3" name="checkbox3"><label for="checkbox3">By Mailing</label>  <br>
+    </caption>
+    </fieldset>
+
+    <fieldset>
+       <legend>
+           <caption> Address Information <br> </caption></legend>
+               <label for="address">Address:</label> <input type="text" id=""><br>
+               <label for="City">City: </label> <input type="text"><br>
+                Country:
+            <select name="list" id="list2">
+                <option value="Qatar ">Qatar </option>
+                <option value="Kuwait ">Kuwait </option>
+                <option value="Bahrain">Bahrain</option>
+            </select>
+    </fieldset>
+    <br>
+
+    <input type="submit">
+    <input type="reset">
+    </form>
+
+
+
+
+</body>
+</html>
